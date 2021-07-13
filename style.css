@@ -1,0 +1,76 @@
+.login-form-page{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.main-path-one{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(226, 226, 226, 0.351);
+}
+.main-path-two{
+    padding: 20px;
+    background-color: white;
+}
+.main-path-footer{
+    float: right;
+    /* padding: 10px; */
+    margin-top: 12px;
+}
+
+.main-path-footer span{
+    color: gray;
+}
+.main-path-footer button{
+    margin: 0 10px;
+    background-color: rgb(98, 117, 255);
+    border: none;
+    outline: none;
+    padding: 5px 23px;
+    color: white;
+    border-radius: 5px;
+}
+
+.login-other-sign{
+    margin-left: 50px;
+}
+
+.login-other-sign button{
+    width: 15rem;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 4px;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+}
+.login-heading{
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.login-seprate{
+    transform: rotate(90deg);
+}
+.login-seprate{
+    color: rgb(192, 192, 192);
+}
+
+.login-other-sign img{
+    width: 220px;
+    margin: 5px 0;
+}
+.login-form-page{
+    margin: 0 60px;
+}
+
+@media (max-width:1100px) {
+    .login-form-page{
+        flex-wrap: wrap;
+    }
+}
